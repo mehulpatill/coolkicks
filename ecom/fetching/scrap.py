@@ -65,7 +65,7 @@
 #     shoe_data.append(shoe_info)
 
 # # Save the shoe data to a JSON file
-# with open('shoe_data.json', 'w') as file:
+# with open('assests/shoe_data.json', 'w') as file:
 #     json.dump(shoe_data, file, indent=4)
 
 # driver.quit()
@@ -105,7 +105,7 @@
 #             remove_background_with_api(api_key, image_url, name, output_dir)
 
 # # Example usage
-# api_key = "SEUVirqeeavpX2FGFLBiA8h8"
+# api_key = "put removebg api key here"
 # input_json = "shoe_data.json"
 # output_dir = "shoe"
     
