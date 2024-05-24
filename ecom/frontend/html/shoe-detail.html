@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoe detail</title>
+    <link rel="stylesheet" href="/frontend/css/shoe-detail.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="/frontend/js/shoe-detail.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar-title">
+      COOLKICKS
+    </div>
+    <div class="navbar-links">
+      <div class="one"><a href="/frontend/html/home.html" id="tabs">HOME</a></div>
+      <div class="two"><a href="/frontend/html/shop.html" id="tabs">SHOP</a></div>
+      <div class="three"><a href="/frontend/html/contact.html" id="tabs">CONTACT</a></div>
+    </div>
+    <div class="menu" onclick="showSidebar()">
+      <span class="material-icons">menu</span>
+    </div>
+  </nav>
+
+  <nav class="mobile_navbar">
+    <ul class="mob-navbar-links" id="mobNavbarLinks">
+      <span class="material-icons close-menu " id="sidebar_close" onclick="closeSidebar()">close</span>
+      <li class="mobone"><a href="/frontend/html/home.html" id="mobtabs">HOME</a></li>
+      <li class="mobtwo"><a href="/frontend/html/shop.html" id="mobtabs">SHOP</a></li>
+      <li class="mobthree"><a href="/frontend/html/contact.html" id="mobtabs">CONTACT</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <div class="bg">NIKE</div>
+  </div>
+  <div class="shoebody">
+    <div class="shoe">
+      <img src="" alt="" id="sneaker-image">
+    </div>
+  </div>
+  <div class="detail">
+    <div class="name"></div>
+    <div class="price"></div>
+  </div>
+  <div class="navigation-buttons">
+    <!-- <button id="prev-btn">&#8249;</button> -->
+    <ion-icon id="prev-btn" class="btn" name="arrow-back-outline"></ion-icon>
+    <ion-icon id="next-btn" class="btn" name="arrow-forward-outline"></ion-icon>
+</div>
+<script src="https://unpkg.com/split-type"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
+</body>
+</html>
