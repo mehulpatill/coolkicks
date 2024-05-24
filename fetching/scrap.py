@@ -1,7 +1,7 @@
 
           
 
-
+##scrap images from nike
 
 
 # import json
@@ -73,7 +73,7 @@
 
 
 
-
+### remove backgrounds of scraped photos
 
 
 # import json
@@ -106,7 +106,7 @@
 #             remove_background_with_api(api_key, image_url, name, output_dir)
 
 # # Example usage
-# api_key = "SEUVirqeeavpX2FGFLBiA8h8"
+# api_key = "enter your romovebg api"
 # input_json = "shoe_data.json"
 # output_dir = "shoe"
     
@@ -122,74 +122,6 @@
 
 
 
-# import json
-
-# # Load the JSON data
-# with open('shoe_data.json') as json_file:
-#     data = json.load(json_file)
-
-# # Modify the Img value for the first 50 entries
-# for item in data[:41]:
-#     item['Img'] = f"shoe/{item['Name']}.png"
-
-# # Write the modified data back to the file
-# with open('modified_file.json', 'w') as json_file:
-#     json.dump(data, json_file, indent=4)
 
 
 
-
-
-
-
-# import json
-
-# # Function to read JSON data from a file
-# def read_json(file_path):
-#     with open(file_path, 'r') as file:
-#         data = json.load(file)
-#     return data
-
-# # Function to write JSON data to a file
-# def write_json(data, file_path):
-#     with open(file_path, 'w') as file:
-#         json.dump(data, file, indent=4)
-
-# # Read data from both JSON files
-# one_data = read_json('shoe_data.json')
-# two_data = read_json('modified_file.json')
-
-# # Create a dictionary from two_data for quick lookup by name and age
-# two_dict = {(entry['Name'], entry['Price']): entry for entry in two_data}
-
-# # Combine the data
-# combined_data = []
-# for entry in one_data:
-#     name_age_key = (entry['Name'], entry['Price'])
-#     if name_age_key in two_dict:
-#         # Merge entries
-#         combined_entry = {**entry, **two_dict[name_age_key]}
-#         combined_data.append(combined_entry)
-#     else:
-#         # If no matching entry in two_data, just add the entry from one_data
-#         combined_data.append(entry)
-
-# # Write the combined data to a new JSON file
-# write_json(combined_data, 'combined_file.json')
-
-# print("Data combined successfully into 'combined_file.json'")
-
-from rembg import remove
-from PIL import Image
-
-# Function to remove the background
-def remove_background(input_path, output_path):
-    input_image = Image.open(input_path)
-    output_image = remove(input_image)
-    output_image.save(output_path)
-
-# Example usage
-input_path = "assests/download_image_1716454228418.png"  # Replace with your input image path
-output_path = 'output.png'  # Save as PNG to keep the alpha channel
-remove_background(input_path, output_path)
-print(f"Background removed and saved to {output_path}")
