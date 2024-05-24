@@ -1,0 +1,126 @@
+[
+    {
+        "Name": "Tatum 2 'Sidewalk Chalk' PF",
+        "Price": "MRP : \u20b9 11 495.00",
+        "bg": "radial-gradient(circle, #98B4BE, #800080)",
+        "imgpng": "/shoe/Tatum 2 'Sidewalk Chalk' PF.png"
+    },
+    {
+        "Name": "Tatum 2",
+        "bg": "radial-gradient(circle, #A7EEA7, #00FF00)",
+        "Price": "MRP : \u20b9 6 995.00",
+        "imgpng": "/shoe/Tatum 2.png"
+    },
+    
+    {
+        "Name": "Zion 3 'Rising' PF",
+        "Price": "MRP : \u20b9 13 995.00",
+        "bg": "radial-gradient(circle, #98B4BE, #006080)",
+        "imgpng": "/shoe/Zion 3 'Rising' PF.png"
+    },
+    {
+        "Name": "Air Jordan Legacy 312 Low",
+        "Price": "MRP : \u20b9 12 795.00",
+        "bg": "radial-gradient(circle, #98B4BE, #291919)",
+        "imgpng": "/shoe/Air Jordan Legacy 312 Low.png"
+    },
+    {
+        "Name": "Air Jordan 1 Low SE Craft",
+        "Price": "MRP : \u20b9 10 795.00",
+        "bg": "radial-gradient(circle, #98B4BE, #947194)",
+        "imgpng": "/shoe/Air Jordan 1 Low SE Craft.png"
+    },
+    {
+        "Name": "Air Jordan 1 Mid SE Craft",
+        "Price": "MRP : \u20b9 12 295.00",
+        "bg": "radial-gradient(circle, #98B4BE, #947194)",
+        "imgpng": "/shoe/Air Jordan 1 Mid SE Craft.png"
+    },
+    {
+        "Name": "Jordan Spizike Low",
+        "Price": "MRP : \u20b9 14 995.00",
+        "bg": "radial-gradient(circle,  #A9A9A9, #800000)",
+        "imgpng": "/shoe/Jordan Spizike Low.png"
+    },
+    {
+        "Name": "Air Jordan XXXVIII Low PF",
+        "Price": "MRP : \u20b9 17 295.00",
+        "bg": "radial-gradient(circle, #98B4BE,  #FF6600)",
+        "imgpng": "/shoe/Air Jordan XXXVIII Low PF.png"
+    },
+    
+    {
+        "Name": "Air Jordan 3 Retro",
+        "Price": "MRP : \u20b9 16 595.00",
+        "bg": "radial-gradient(circle, #98B4BE, #8F6151)",
+        "imgpng": "/shoe/Air Jordan 3 Retro.png"
+    },
+    {
+        "Name": "Zion 3 SE PF",
+        "Price": "MRP : \u20b9 13 995.00",
+        "bg": "radial-gradient(circle, #98B4BE, #CC99CC)",
+        "imgpng": "/shoe/Zion 3 SE PF.png"
+    },
+    
+    {
+        "Name": "Air Jordan 1 Low",
+        "Price": "MRP : \u20b9 8 295.00",
+        "bg": "radial-gradient(circle, #98B4BE, #0A010AF1)",
+        "imgpng": "/shoe/Air Jordan 1 Low.png"
+    },
+    {
+        "Name": "Air Jordan Legacy 312 Low",
+        "Price": "MRP : \u20b9 12 995.00",
+        "bg": "radial-gradient(circle, #98B4BE, #000000D6)",
+        "imgpng": "/shoe/Air Jordan Legacy 312 Low.png"
+    },
+    {
+        "Name": "Air Jordan 1 Low SE",
+        "Price": "MRP : \u20b9 10 795.00",
+        "bg": "radial-gradient(circle, #98B4BE, #9FE2BF)",
+        "imgpng": "/shoe/Air Jordan 1 Low SE.png"
+    },
+    
+    {
+        "Name": "Jumpman MVP",
+        "Price": "MRP : \u20b9 15 295.00",
+        "bg": "radial-gradient(circle, #98B4BE, #4C6185)",
+        "imgpng": "/shoe/Jumpman MVP.png"
+    },
+    {
+        "Name": "Air Jordan 1 Low",
+        "Price": "MRP : \u20b9 8 295.00",
+        "bg": "radial-gradient(circle, #98B4BE, #00FF00)",
+        "imgpng": "/shoe/Air Jordan 1 Low.png"
+    },
+    {
+        "Name": "Air Jordan 4 Retro",
+        "Price": "MRP : \u20b9 19 295.00",
+        "bg": "radial-gradient(circle, #98B4BE, #FFFF00)",
+        "imgpng": "/shoe/Air Jordan 4 Retro.png"
+    },
+    {
+        "Name": "Air Jordan I High G",
+        "Price": "MRP : \u20b9 16 995.00",
+        "bg": "radial-gradient(circle, #98B4BE, #003366)",
+        "imgpng": "/shoe/Air Jordan I High G.png"
+    },
+    {
+        "Name": "Tatum 2 'Vortex' PF",
+        "Price": "MRP : \u20b9 11 495.00",
+        "bg": "radial-gradient(circle, #98B4BE, #00AEAA)",
+        "imgpng": "/shoe/Tatum 2 'Vortex' PF.png"
+    },
+    {
+        "Name": "Air Jordan 9 Retro 'Powder Blue'",
+        "Price": "MRP : \u20b9 19 295.00",
+        "bg": "radial-gradient(circle, #98B4BE,  #B0E0E6)",
+        "imgpng": "/shoe/Air Jordan 9 Retro 'Powder Blue'.png"
+    },
+    {
+        "Name": "Air Jordan 6 Retro 'Yellow Ochre'",
+        "Price": "MRP : \u20b9 18 395.00",
+        "bg": "radial-gradient(circle, #98B4BE, #CCCC00)",
+        "imgpng": "/shoe/Air Jordan 6 Retro 'Yellow Ochre'.png"
+    }
+]

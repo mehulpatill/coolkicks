@@ -1,0 +1,202 @@
+body{
+  background-image: url(/assests/DarkGrunge_Textures02.jpg);
+  font-family: 'CustomFont', sans-serif;
+  margin: 0;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover; /* This will make the background image cover the entire element */
+  background-position: center;
+  overscroll-behavior: none; 
+
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.shop-body {
+  padding: 20px;
+  margin-top: 80px; /* Adjust according to the navbar height */
+  height: calc(100vh - 80px); /* Ensure the content takes the remaining viewport height */
+  box-sizing: border-box; /* Include padding and border in height calculation */
+}
+h2{
+  font-family: 'edition';
+}
+  
+  .img{
+    position: absolute;
+    transform: rotate(-10deg);
+    left: 38%;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    z-index: 2;
+    user-select: none;
+    position: fixed; /* Change to fixed to stay at the top */
+    width: 100%; /* Ensure navbar spans the full width */
+    top: 0; /* Position navbar at the top */
+    transition: top 0.3s; /* Smooth transition for hiding and showing the navbar */
+  }
+  
+  .navbar.hide-navbar {
+    top: -120px; /* Move the navbar out of view */
+  }
+  .navbar-logo{
+    z-index: 2;
+  }
+  
+  .navbar-title  {
+    height: 40px;
+    scale: 2.5; 
+    padding: 15px 0px 0px 20px;
+    z-index: 2;
+    user-select: none;
+    font-family: "Nuport";
+    margin: 0.5cm 0cm 0cm 1.3cm;
+    color:beige;
+  }
+  
+  
+  .navbar-links {
+    display: inline;
+    padding: 0px 20px;
+    display: flex;
+    color: #E5E4E2;
+    margin-right: 100px;
+   }
+   #tabs{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #E5E4E2;
+    transition: all 0.5s  0s;
+    z-index: 2;
+   }
+  
+   #tabs:hover {
+    color: chocolate; /* Change text color to blue on hover */
+  }
+  
+  #tabs::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -25px; /* Adjust this value to position the image */
+    left: 60%;
+  
+    transform: translateX(-50%);
+    width: 30px; /* Set the width of the image */
+    height: 30px; /* Set the height of the image */
+    background-image: url('/assests/nike.png');
+    scale: 1.5;
+    /* transform: rotate(180deg); Path to your small image */
+    background-size: contain; /* Display the full image without cropping */
+    background-repeat: no-repeat;
+    background-position: center center; /* Center the image within the tab */
+    opacity: 0; /* Initially hide the image */
+    transition: opacity 0.3s; /* Add a smooth fade-in effect */
+  }
+  
+  #tabs:hover::after {
+    opacity: 1; /* Show the image on hover */
+  }
+  
+  .shop-body {
+    padding: 20px;
+  }
+  
+  .sneaker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minimum and maximum column width as needed */
+  gap: 20px;
+  user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+  .sneaker-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust column width for smaller screens */
+    gap: 10px; /* Reduce gap between items for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
+  
+.sneaker-item {
+  background: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden; 
+  transition: transform 0.3s ease;/* Ensure content does not overflow */
+}
+
+.sneaker-item img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease; /* Add transition for smooth scaling */
+}
+
+.sneaker-item:hover {
+  transform: scale(1.10); /* Scale the image on hover */
+}
+
+  .sneaker-item:not(:nth-child(-n + 4)) img {
+    width: 100%;
+    height: auto; /* Allow the image to adjust its height based on width */
+    position: relative; /* Ensure proper positioning */
+    top: -50px;
+    
+    /* Adjust this value to cut off more or less from the top */
+  }
+  
+  .sneaker-item h2 {
+    margin: 0px 0;
+    position: relative;
+    top: -50px;
+    color: #E5E4E2;
+  }
+  .sneaker-item:not(:nth-child(-n + 4)) h2 {
+    position: relative;
+    top: -100px; /* Adjust this value to cut off more or less from the top */
+  }
+  
+  .sneaker-item p {
+    margin: 10px;
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+
+
+
+  
+
+  @font-face {
+    font-family: 'CustomFont';
+    src: url(/fonts/unitedkingdom.otf) format('woff2'), /* Modern Browsers */
+         url(/fonts/unitedkingdom.otf) format('woff'); /* Legacy Browsers */
+    /* You can add additional font formats and variations if needed */
+  }  
+
+
+@font-face {
+  font-family: 'edition';
+      src: url(/fonts/EDITION_.TTF) format('wttf2'), /* Modern Browsers */
+           url(/fonts/EDITION_.TTF) format('wttf'); /* Legacy Browsers */     
+    
+}
+@font-face {
+  font-family: 'Nuport';
+  src: url(/fonts/NuportFont.otf) format('woff2'), /* Modern Browsers */
+       url(/fonts/NuportFont.otf) format('woff'); /* Legacy Browsers */
+  /* You can add additional font formats and variations if needed */
+}
